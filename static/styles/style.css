@@ -1,0 +1,62 @@
+/*
+---------------------
+    Variables
+---------------------
+*/
+/*
+---------------------
+    Common styles
+---------------------
+*/
+html,
+body {
+  font-family: 'Lora';
+  font-size: 18px;
+  line-height: 180%;
+  color: #000;
+  background: #f9f7f7;
+}
+::selection {
+  text-shadow: none;
+  background: #f7921d;
+  color: #fff;
+}
+.page-wrap {
+  background: #fff;
+  margin: 60px;
+  padding: 45px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lora';
+  color: #000;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 180%;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 18px;
+}
+a {
+  color: #f7921d;
+  text-decoration: none;
+}
+a:hover {
+  color: #f7921d;
+  text-decoration: underline;
+}
+.centered {
+  text-align: center;
+}
